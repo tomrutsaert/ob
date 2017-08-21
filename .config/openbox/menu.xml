@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox">
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>x-terminal-emulator</execute>
+			</action>
+		</item>
+		<item label="Web browser">
+			<action name="Execute">
+				<execute>x-www-browser</execute>
+			</action>
+		</item>
+		<item label="Idea">
+			<action name="Execute">
+				<execute>~/software/idea-IU-171.4073.35/bin/idea.sh</execute>
+			</action>
+		</item>
+		<item label="Android studio">
+			<action name="Execute">
+				<execute>~/software/android-studio-ide-162.4069837-linux/bin/studio.sh</execute>
+			</action>
+		</item>
+		<item label="Thunderbird">
+			<action name="Execute">
+				<execute>thunderbird</execute>
+			</action>
+		</item>
+		<item label="Spotify">
+			<action name="Execute">
+				<execute>spotify</execute>
+			</action>
+		</item>
+		<item label="Slack">
+			<action name="Execute">
+				<execute>slack</execute>
+			</action>
+		</item>
+		<item label="Telegram">
+			<action name="Execute">
+				<execute>/opt/Telegram/Telegram</execute>
+			</action>
+		</item>
+		<item label="Dolphin">
+			<action name="Execute">
+				<execute>dolphin</execute>
+			</action>
+		</item>
+		<item label="Gedit">
+			<action name="Execute">
+				<execute>gedit</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="gmrun">
+			<action name="Execute">
+				<execute>gmrun</execute>
+			</action>
+		</item>
+		<item label="dmenu">
+			<action name="Execute">
+				<execute>dmenu</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<item label="ObConf">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Nitrogen">
+			<action name="Execute">
+				<command>nitrogen</command>
+			</action>
+		</item>
+		<separator/>
+		<item label="Lock">
+			<action name="Execute">
+				<command>xscreensaver-command -lock</command>
+			</action>
+		</item>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+		<item label="Restart">
+			<action name="Restart"/>
+		</item>
+		<item label="ShutDown">
+			<action name="ShutDown"/>
+		</item>
+	</menu>
+</openbox_menu>

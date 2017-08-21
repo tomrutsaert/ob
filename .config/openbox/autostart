@@ -1,0 +1,6 @@
+xrandr --auto --output DP-1-2 --mode 1920x1080 --right-of eDP-1 
+xrandr --auto --output DP-1-1 --mode 1920x1080 --right-of DP-1-2
+nitrogen --restore &
+xscreensaver -no-splash &
+(sleep 3s && lxpanel) &
+(sleep 3s && clipit) &
